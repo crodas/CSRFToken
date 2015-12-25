@@ -1,0 +1,15 @@
+{
+    "name": "crodas/csrf-token",
+    "description": "Easier way to generate CSRF tokens",
+    "authors": [
+        {
+            "name": "Cesar Rodas",
+            "email": "crodas@php.net"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
