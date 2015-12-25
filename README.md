@@ -1,6 +1,12 @@
-# CSRFToken
+# CSRF (Cross-Site Request Forgery) stateless tokens.
 
 Stateless CSRF-token generation and verification.
+
+## Instalation
+
+```bash
+composer require crodas/csrf-token:"^1.0"
+```
 
 ## Properties
 
@@ -13,6 +19,8 @@ Stateless CSRF-token generation and verification.
 Initialize the library:
 
 ```php
+require __DIR__ . '/vendor/autoload.php';
+
 CSRF::setSecret($strong_secret_key);
 ```
 
